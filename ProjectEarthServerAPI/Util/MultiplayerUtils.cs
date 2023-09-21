@@ -20,6 +20,7 @@ namespace ProjectEarthServerAPI.Util
 		private static readonly Dictionary<Guid, BuildplateServerResponse> InstanceList = new();
 		private static readonly Dictionary<Guid, Guid> ApiKeyList = new();
 		private static readonly Dictionary<Guid, ServerInformation> ServerInfoList = new();
+		private static readonly Dictionary<Guid, bool> ServerReadyList = new();
 		private static readonly Dictionary<Guid, WebSocket> ServerSocketList = new();
 		private static readonly Dictionary<Guid, bool> InstanceReadyList = new();
 
